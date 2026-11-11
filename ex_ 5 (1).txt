@@ -1,0 +1,8 @@
+PROCEDURE:
+• Open Autopsy in Kali Linux or Windows.
+• From the home screen, create a New Case and provide a case name, number, and examiner details.
+• Click on Add Data Source.
+• Select Disk Image or VM File option.
+• Browse and select the storage device or image file to be added.
+• Autopsy will process the data source and display details such as partitions, file system, and file structures.
+• The forensic image will now be available in the case for further analysis (search, file recovery, metadata extraction, etc.).

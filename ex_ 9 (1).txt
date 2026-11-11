@@ -1,0 +1,13 @@
+PROCEDURE:
+• Open Terminal in Kali Linux.
+• Use the fls command to list the files in the mobile forensic image:
+fls -r mobile_image.dd
+• Identify database files related to SMS (mmssms.db) and contacts (contacts2.db).
+• Note the inode numbers of these files.
+• Extract the database files using icat:
+icat mobile_image.dd <inode_number> > mmssms.db
+icat mobile_image.dd <inode_number> > contacts2.db
+• Open the extracted files with SQLite Browser or strings command to view the contents:
+strings mmssms.db | less
+strings contacts2.db | less
+• Analyze the extracted data to obtain SMS messages and contact information.

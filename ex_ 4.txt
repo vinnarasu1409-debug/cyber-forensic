@@ -1,0 +1,7 @@
+PROCEDURE: 
+	
+• Open and Run USBDeview.exe with administrator privileges. 
+• The tool lists all USB devices (current and previously connected). 
+• Check the column “Last Plug/Unplug Date” to find the last connected USB. 
+• Sort the list by date to identify the most recent device. 
+

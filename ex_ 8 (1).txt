@@ -1,0 +1,9 @@
+PROCEDURE:
+• Open Terminal in Kali Linux.
+• Use the fls command to list files, including deleted entries, in the disk image:
+fls -r image.dd //Here, -r is for recursive listing.
+• Identify the deleted file’s inode number from the output. Deleted files are usually marked with a special indicator.
+• Use the icat command to recover the file using its inode number:
+icat image.dd <inode_number> > recovered_file.ext
+• The recovered file will be saved in the current working directory.
+• Open the file to verify successful recovery.

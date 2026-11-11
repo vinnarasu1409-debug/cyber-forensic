@@ -1,0 +1,9 @@
+PROCEDURE:
+• Launch Autopsy and create a New Case by entering the case name, number, and examiner details.
+• Click on Add Data Source and choose Disk Image or VM File.
+• Browse and select the forensic disk image to be analyzed.
+• Autopsy processes the image and displays the file system in the tree view.
+• Navigate to the Deleted Files section under the data source.
+• Browse and inspect the list of deleted files (with metadata such as name, size, and path).
+• Right-click on a deleted file to extract or recover it to a local folder.
+• Document the recovered files and their properties for forensic evidence.

@@ -1,0 +1,12 @@
+PROCEDURE: 
+
+• Open guymager application 
+• Select the storage device 
+• Enable the options required. 
+• Click aquire image 
+• Click linux dd raw image, remove tick from split image file, give the file name 
+• Click start. 
+• Again select the storage device 
+• Select clone device. 
+• And clone the devices. 
+

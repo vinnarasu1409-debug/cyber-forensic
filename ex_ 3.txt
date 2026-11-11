@@ -1,0 +1,28 @@
+PROCEDURE: 
+
+• Open the Linux terminal. 
+• Identify the storage device 
+• Create a folder to store recovered files 
+• Check available recipes(known as magic number or file signature) 
+• Run Magic Rescue with the required recipe 
+• Wait for the recovery process to finish. 
+• Navigate to the recovery folder 
+• View and verify the recovered files. 
+
+COMMANDS: 
+
+• To Identify the storage device using: 
+lsblk 
+
+• To Create a folder to store recovered files: 
+mkdir ~/recovered 
+
+• To Check available recipes: 
+ls /usr/share/magicrescue/recipes/
+
+• To Run Magic Rescue with the required recipe (example for JPEG files): 
+sudo magicrescue -r jpeg -d ~/recovered /dev/sdb1 
+
+• To Navigate to the recovery folder: 
+cd ~/recovered 
+ls

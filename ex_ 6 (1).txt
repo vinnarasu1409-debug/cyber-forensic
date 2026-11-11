@@ -1,0 +1,9 @@
+PROCEDURE:
+• Open Autopsy and create a New Case by entering case details (case name, number, examiner name).
+• Click Add Data Source and select Disk Image or VM File.
+• Browse and add the image file provided in the lab.
+• Autopsy scans and indexes the image; the data source is displayed in the tree view.
+• Navigate through File System, Metadata, and Analysis modules to explore files.
+• Use features like Keyword Search, Timeline Analysis, and Hash Lookup to identify evidence.
+• Examine recovered files, emails, browser history, and other artifacts relevant to the case.
+• Generate the Final Report of findings using Autopsy’s report generation option.files.
